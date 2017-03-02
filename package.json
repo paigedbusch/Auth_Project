@@ -1,0 +1,29 @@
+{
+  "name": "auth_project",
+  "version": "1.0.0",
+  "description": "<img src=\"https://devmounta.in/img/logowhiteblue.png\" width=\"250\" align=\"right\">",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.15.0",
+    "express-session": "^1.15.1",
+    "passport": "^0.3.2",
+    "passport-auth0": "^0.6.0",
+    "passport-github2": "^0.1.10",
+    "request": "^2.79.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paigedbusch/Auth_Project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paigedbusch/Auth_Project/issues"
+  },
+  "homepage": "https://github.com/paigedbusch/Auth_Project#readme"
+}
